@@ -100,7 +100,7 @@
   });
   
   // Click handler for the 'Start Over' button
-  $('#start').on('click', function (e) {
+ /* $('#start').on('click', function (e) {
     e.preventDefault();
     
     if(quiz.is(':animated')) {
@@ -111,6 +111,7 @@
     displayNext();
     $('#start').hide();
   });
+  */
   
   // Animates buttons on hover
   $('.button').on('mouseenter', function () {
