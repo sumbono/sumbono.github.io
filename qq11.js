@@ -199,7 +199,8 @@
   }
   
     function Refresh() {
-        window.parent.location = window.parent.location.href;
+        /* window.parent.location = window.parent.location.href; */
+        window.location.reload();
     }
   
   // Computes score and returns a paragraph element to be displayed
