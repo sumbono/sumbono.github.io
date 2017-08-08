@@ -25,7 +25,6 @@ a {
     height: 15%;
     margin: 10px 10px 10px 10px;
     box-shadow: 2px 3px 2px #888;
-    font-family: Florence, cursive;
     }
 
 
@@ -36,6 +35,10 @@ a {
 #quiz {
     text-indent: 10px;
     display:none;
+}
+
+#fontText {
+    font-family: Florence, cursive;
 }
 
 /*.button {
