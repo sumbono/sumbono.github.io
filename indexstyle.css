@@ -71,3 +71,33 @@ a {
             padding-bottom: 10px;
             color: grey;
         }
+
+
+
+/*Responsive Part*/
+
+@media only screen and (max-width: 1024px) {
+    
+    
+    }
+
+
+
+/*Smartphone*/
+
+@media only screen and (max-width: 480px) {
+    
+    #container{
+        width: 30%;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 10px;
+    }
+
+}
