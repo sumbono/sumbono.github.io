@@ -54,7 +54,7 @@ a {
 
 
 #container {
-    width:25%;
+    width:50%;
     margin:auto;
     padding: 15px 15px 15px 15px;
     background-color: #0D6404;
@@ -102,6 +102,16 @@ a {
         font-size: 10px;
         padding: 5px 0 5px 0;
         margin: 0 0 5px 0;
+    }
+
+    a {
+        border: 2px solid #72F7B9;
+        border-width: 1px;
+        border-radius: 50px;
+        padding: 5px;
+        width: 50%;
+        height: 15%;
+        margin: 5px 2px 5px 2px;
     }
 
 }
