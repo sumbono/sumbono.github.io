@@ -93,6 +93,10 @@ button:hover{
 	background-color: #02A015;
 }
 
+a{
+	text-decoration: none;
+}
+
 
 /*Tablet*/
 
