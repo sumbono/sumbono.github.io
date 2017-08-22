@@ -99,6 +99,10 @@ a{
 	height: 100%;
 }
 
+a:hover{
+	color: white;
+	background-color: #02A015;
+}
 
 /*Tablet*/
 
