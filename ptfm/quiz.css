@@ -1,7 +1,8 @@
 
 body{
 	font-family: 'Roboto Slab', serif;
-	background: #6cf;
+	/*background: #6cf;*/
+	background: url(bppt.jpg);
 }
 
 .container{
