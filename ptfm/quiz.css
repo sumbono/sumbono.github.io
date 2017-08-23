@@ -17,6 +17,7 @@ body{
 	padding: 20px;
 	border: 1px solid #08038C;
 	box-shadow: 0 0 8px 3px #fff;
+	border-radius: 10px;
 }
 
 .title{
