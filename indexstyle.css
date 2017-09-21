@@ -81,13 +81,12 @@ a {
     box-shadow: 5px 5px 5px #888;
 }
 
-.copyright {
+div p {
             font-size: 8pt;
-            text-align: right;
+            text-align: center;
             padding-bottom: 10px;
             color: grey;
 }
-
 
 
 /*Responsive Part*/
