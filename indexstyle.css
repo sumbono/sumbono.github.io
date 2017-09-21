@@ -81,11 +81,11 @@ a {
     box-shadow: 5px 5px 5px #888;
 }
 
-div p {
-            font-size: 8pt;
-            text-align: center;
-            padding-bottom: 10px;
-            color: grey;
+h5 {
+        /*font-size: 8pt;*/
+        text-align: center;
+        padding-bottom: 10px;
+        color: grey;
 }
 
 
