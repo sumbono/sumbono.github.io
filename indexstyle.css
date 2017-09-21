@@ -34,6 +34,7 @@ h2 {
 p {
     font-size: 15pt;
     text-align: center;
+    text-decoration: underline;
 }
 
 a {
@@ -118,6 +119,13 @@ a {
     text-align: center;
     }
 
+    a {
+        font-size: 10pt;
+        text-decoration: none;
+        color: #20bcd5;
+        text-align: center;
+    }
+
 }
 
 @media only screen and (max-width: 720px) {
@@ -138,6 +146,13 @@ a {
     p {
     font-size: 10pt;
     text-align: center;
+    }
+
+    a {
+        font-size: 10pt;
+        text-decoration: none;
+        color: #20bcd5;
+        text-align: center;
     }
 
 }
@@ -170,6 +185,7 @@ a {
     }
 
     a {
+        font-size: 10pt;
         text-decoration: none;
         color: #20bcd5;
         text-align: center;
