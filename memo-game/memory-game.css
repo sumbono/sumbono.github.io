@@ -1,0 +1,55 @@
+div#memory_board {
+	background-color: #0D6404;
+	border: #040504 10px solid;
+	border-radius: 50px;
+	width:620px;
+	height: 460px;
+	margin: 20px auto;
+    padding: 25px 25px 25px 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Florence, cursive;
+}
+
+div#memory_board > div {
+	background: #901B0B;
+	border: #F9F203 1px solid;
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin: 5px;
+	padding: 20px;
+	font-size: 35px;
+	cursor: pointer;
+	text-align: center;
+	position: center;
+}
+
+#home {
+	background-color: #FFFFFF;
+	border: #040504 2px solid;
+	border-radius: 50px;
+	width:70px;
+	height: 20px;
+	margin: 2px auto;
+    padding: 2px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+    text-align: center;
+    color: black;
+
+.copyright {
+            font-size: 8pt;
+            text-align: right;
+            padding-bottom: 10px;
+            color: grey;
+        }
