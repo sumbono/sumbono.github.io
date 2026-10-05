@@ -1153,6 +1153,13 @@ section .container {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   padding: 60px 0 40px;
   background: #010e1b;
+  /* body::before uses background-attachment:fixed (style.css:29), which
+     composites as its own layer — an in-flow footer gets dropped beneath it
+     in the paint even though hit-testing says otherwise. Position + raise +
+     promote the footer to its own layer so it renders reliably. */
+  position: relative;
+  z-index: 1;
+  transform: translateZ(0);
 }
 #footer .footer-cta h2 {
   font-size: 32px;
