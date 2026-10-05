@@ -1141,3 +1141,34 @@ section .container {
 .portfolio .portfolio-quicklinks li a {
   color: #12d640;
 }
+#footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 60px 0 40px;
+  background: #010e1b;
+}
+#footer .footer-cta h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#footer .footer-email {
+  font-size: 20px;
+  color: #12d640;
+}
+#footer .footer-links {
+  margin-top: 28px;
+  display: flex;
+  gap: 24px;
+}
+#footer .footer-links a {
+  color: #fff;
+  font-size: 16px;
+}
+#footer .footer-links a:hover {
+  color: #12d640;
+}
+#footer .footer-copy {
+  margin-top: 32px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
