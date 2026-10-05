@@ -1151,7 +1151,7 @@ section .container {
 }
 #footer {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
-  padding: 60px 0 40px;
+  padding: 40px 0 32px;
   background: #010e1b;
   /* body::before uses background-attachment:fixed (style.css:29), which
      composites as its own layer — an in-flow footer gets dropped beneath it
@@ -1161,17 +1161,8 @@ section .container {
   z-index: 1;
   transform: translateZ(0);
 }
-#footer .footer-cta h2 {
-  font-size: 32px;
-  color: #fff;
-  margin-bottom: 12px;
-}
-#footer .footer-email {
-  font-size: 20px;
-  color: #12d640;
-}
 #footer .footer-links {
-  margin-top: 28px;
+  margin-top: 0;
   display: flex;
   gap: 24px;
 }
@@ -1183,9 +1174,14 @@ section .container {
   color: #12d640;
 }
 #footer .footer-copy {
-  margin-top: 32px;
+  margin-top: 20px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.5);
+}
+.about-cta {
+  margin-top: 20px;
+  font-size: 17px;
+  color: #dee2e6;
 }
 
 /* .services .icon-box (style.css:656) sets text-align:center, background:#09203a
