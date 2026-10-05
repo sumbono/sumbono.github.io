@@ -1124,6 +1124,7 @@ section .container {
   margin: 0 auto 15px auto;
   list-style: none;
   text-align: center;
+  border-radius: 50px;
 }
 .portfolio .portfolio-quicklinks li {
   cursor: pointer;
@@ -1136,7 +1137,14 @@ section .container {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
+  transition: all 0.3s ease-in-out;
   border-radius: 4px;
+}
+.portfolio .portfolio-quicklinks li:hover {
+  background: #1c7d32;
+}
+.portfolio .portfolio-quicklinks li:last-child {
+  margin-right: 0;
 }
 .portfolio .portfolio-quicklinks li a {
   color: #12d640;
