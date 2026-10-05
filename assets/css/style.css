@@ -1096,3 +1096,12 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+/*--------------------------------------------------------------
+# Content-pass additions (footer, hero sub, captions)
+--------------------------------------------------------------*/
+#header .hero-sub {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 10px;
+}
