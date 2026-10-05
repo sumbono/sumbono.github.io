@@ -1223,3 +1223,6 @@ section .container {
   font-size: 15px;
   margin-bottom: 6px;
 }
+#header.header-top .hero-sub {
+  display: none;
+}
