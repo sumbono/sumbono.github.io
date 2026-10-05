@@ -1173,32 +1173,33 @@ section .container {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* .services .icon-box is text-align:center (style.css:657) and
-   .services .icon-box p is font-size:14px (style.css:706) — these rules
-   restore what the removed inline styles were compensating for. */
-.section-body h4,
-.section-body h5,
-.section-body p,
-.section-body ul {
+/* .services .icon-box (style.css:656) sets text-align:center, background:#09203a
+   and (706) p font-size:14px, (702) h4 a color:#fff — single-class rules LOSE
+   that cascade, so these compensation rules carry the .services .icon-box prefix
+   to out-specify the template on the same elements. */
+.services .icon-box.section-body h4,
+.services .icon-box.section-body h5,
+.services .icon-box.section-body p,
+.services .icon-box.section-body ul {
   text-align: left;
 }
-.section-body p,
-.section-body li,
-.section-body ul {
+.services .icon-box.section-body p,
+.services .icon-box.section-body li,
+.services .icon-box.section-body ul {
   color: #fff;
 }
-.section-body p,
-.section-body li {
+.services .icon-box.section-body p,
+.services .icon-box.section-body li {
   font-size: medium;
 }
-.section-body h4 a {
+.services .icon-box.section-body h4 a {
   color: #12d640;
 }
-.skills-card {
+.services .icon-box.skills-card {
   background: #fff;
   text-align: left;
 }
-.skills-card h4 {
+.services .icon-box.skills-card h4 {
   color: #09203a;
 }
 .interest-icon-amber { color: #ffbb2c; }
