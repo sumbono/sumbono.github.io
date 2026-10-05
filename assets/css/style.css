@@ -1105,3 +1105,39 @@ section .container {
   color: rgba(255, 255, 255, 0.65);
   margin-top: 10px;
 }
+.portfolio-caption h4 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+.portfolio-caption p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+}
+
+/* Re-create the pill presentation the game links previously inherited
+   from the duplicate #portfolio-flters id (style.css:740-768). */
+.portfolio .portfolio-quicklinks {
+  padding: 2px 15px;
+  margin: 0 auto 15px auto;
+  list-style: none;
+  text-align: center;
+}
+.portfolio .portfolio-quicklinks li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 3px 10px 3px;
+  border-radius: 4px;
+}
+.portfolio .portfolio-quicklinks li a {
+  color: #12d640;
+}
