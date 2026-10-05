@@ -1204,3 +1204,25 @@ section .container {
 .interest-icon-amber { color: #ffbb2c; }
 .interest-icon-green { color: #28a745; }
 .interest-icon-red { color: #f1081f; }
+
+/* Content-pass v2 additions (Education & Certifications block) */
+.education-certs {
+  margin-top: 20px;
+}
+.education-certs .edu-line {
+  color: #dee2e6;
+  font-size: 16px;
+}
+.education-certs .cert-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.education-certs .cert-list li {
+  color: #dee2e6;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+#header.header-top .hero-sub {
+  display: none;
+}
