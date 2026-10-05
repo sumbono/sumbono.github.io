@@ -1172,3 +1172,35 @@ section .container {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.5);
 }
+
+/* .services .icon-box is text-align:center (style.css:657) and
+   .services .icon-box p is font-size:14px (style.css:706) — these rules
+   restore what the removed inline styles were compensating for. */
+.section-body h4,
+.section-body h5,
+.section-body p,
+.section-body ul {
+  text-align: left;
+}
+.section-body p,
+.section-body li,
+.section-body ul {
+  color: #fff;
+}
+.section-body p,
+.section-body li {
+  font-size: medium;
+}
+.section-body h4 a {
+  color: #12d640;
+}
+.skills-card {
+  background: #fff;
+  text-align: left;
+}
+.skills-card h4 {
+  color: #09203a;
+}
+.interest-icon-amber { color: #ffbb2c; }
+.interest-icon-green { color: #28a745; }
+.interest-icon-red { color: #f1081f; }
