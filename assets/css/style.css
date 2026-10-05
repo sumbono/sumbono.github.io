@@ -1161,20 +1161,8 @@ section .container {
   z-index: 1;
   transform: translateZ(0);
 }
-#footer .footer-links {
-  margin-top: 0;
-  display: flex;
-  gap: 24px;
-}
-#footer .footer-links a {
-  color: #fff;
-  font-size: 16px;
-}
-#footer .footer-links a:hover {
-  color: #12d640;
-}
 #footer .footer-copy {
-  margin-top: 20px;
+  margin-top: 0;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.5);
 }
