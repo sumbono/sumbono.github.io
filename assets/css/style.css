@@ -1096,3 +1096,111 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+/*--------------------------------------------------------------
+# Content-pass additions (footer, hero sub, captions)
+--------------------------------------------------------------*/
+#header .hero-sub {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 10px;
+}
+.portfolio-caption h4 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+.portfolio-caption p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+}
+
+/* Re-create the pill presentation the game links previously inherited
+   from the duplicate #portfolio-flters id (style.css:740-768). */
+.portfolio .portfolio-quicklinks {
+  padding: 2px 15px;
+  margin: 0 auto 15px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+.portfolio .portfolio-quicklinks li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 3px 10px 3px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+}
+.portfolio .portfolio-quicklinks li:hover {
+  background: #1c7d32;
+}
+.portfolio .portfolio-quicklinks li:last-child {
+  margin-right: 0;
+}
+.portfolio .portfolio-quicklinks li a {
+  color: #12d640;
+}
+#footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 40px 0 32px;
+  background: #010e1b;
+  /* body::before uses background-attachment:fixed (style.css:29), which
+     composites as its own layer — an in-flow footer gets dropped beneath it
+     in the paint even though hit-testing says otherwise. Position + raise +
+     promote the footer to its own layer so it renders reliably. */
+  position: relative;
+  z-index: 1;
+  transform: translateZ(0);
+}
+#footer .footer-copy {
+  margin-top: 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.about-cta {
+  margin-top: 20px;
+  font-size: 17px;
+  color: #dee2e6;
+}
+
+/* .services .icon-box (style.css:656) sets text-align:center, background:#09203a
+   and (706) p font-size:14px, (702) h4 a color:#fff — single-class rules LOSE
+   that cascade, so these compensation rules carry the .services .icon-box prefix
+   to out-specify the template on the same elements. */
+.services .icon-box.section-body h4,
+.services .icon-box.section-body h5,
+.services .icon-box.section-body p,
+.services .icon-box.section-body ul {
+  text-align: left;
+}
+.services .icon-box.section-body p,
+.services .icon-box.section-body li,
+.services .icon-box.section-body ul {
+  color: #fff;
+}
+.services .icon-box.section-body p,
+.services .icon-box.section-body li {
+  font-size: medium;
+}
+.services .icon-box.section-body h4 a {
+  color: #12d640;
+}
+.services .icon-box.skills-card {
+  background: #fff;
+  text-align: left;
+}
+.services .icon-box.skills-card h4 {
+  color: #09203a;
+}
+.interest-icon-amber { color: #ffbb2c; }
+.interest-icon-green { color: #28a745; }
+.interest-icon-red { color: #f1081f; }
