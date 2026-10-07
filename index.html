@@ -270,6 +270,47 @@
         </li>
       </ul>
 
+      <!-- Featured project: Geo-RAG Earth Dashboard (always top-center, filter-independent) -->
+      <style>
+        .featured-project {
+          border: 2px solid #12d640;
+          border-radius: 12px;
+          overflow: hidden;
+          box-shadow: 0 12px 32px rgba(18, 214, 64, .18), 0 6px 18px rgba(0, 0, 0, .35);
+          transition: transform .3s ease, box-shadow .3s ease;
+        }
+        .featured-project:hover { transform: translateY(-6px); }
+        .featured-project .portfolio-caption h4 { display: flex; align-items: center; gap: .5rem; justify-content: center; }
+        .featured-project .badge-featured {
+          background: #09203a;
+          color: #12d640;
+          font-size: .7rem;
+          letter-spacing: .08em;
+          padding: .25rem .55rem;
+          border-radius: 999px;
+          white-space: nowrap;
+        }
+      </style>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-8">
+          <div class="portfolio-item featured-project">
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/geo-rag-dashboard.png" class="img-fluid" alt="Geo-RAG Earth Dashboard — natural-language satellite imagery search" width="960" height="600" loading="lazy">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://geo.sumbono.dev" target="_blank" rel="noopener" title="Live demo"><i class="bx bx-link-external"></i></a>
+                  <a href="https://github.com/sumbono/geo-rag-earth-dashboard" target="_blank" rel="noopener" title="GitHub repository"><i class="bx bxl-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-caption text-center">
+              <h4><span class="badge-featured">★ FEATURED · LIVE</span> Geo-RAG Earth Dashboard</h4>
+              <p>Natural-language search over Sentinel-2 imagery of the Red Sea — FastAPI, pgvector &amp; MapLibre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row portfolio-container">
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
